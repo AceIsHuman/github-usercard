@@ -106,6 +106,7 @@ function createComponent(data) {
 
   const bio = document.createElement('p');
   bio.innerText = `Bio: ${data.bio}`;
+  cardInfo.appendChild(bio);
 
   return card;
 }
